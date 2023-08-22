@@ -1,0 +1,30 @@
+[25-Oct-2022 23:09:04 America/Los_Angeles] PHP Warning:  Undefined array key "final_total" in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 20
+[25-Oct-2022 23:09:04 America/Los_Angeles] PHP Deprecated:  urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 36
+[25-Oct-2022 23:09:04 America/Los_Angeles] PHP Warning:  Undefined array key "customer" in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 72
+[25-Oct-2022 23:09:04 America/Los_Angeles] PHP Warning:  Trying to access array offset on value of type null in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 72
+[25-Oct-2022 23:09:04 America/Los_Angeles] PHP Warning:  Undefined array key "customer" in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 73
+[25-Oct-2022 23:09:04 America/Los_Angeles] PHP Warning:  Trying to access array offset on value of type null in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 73
+[25-Oct-2022 23:09:04 America/Los_Angeles] PHP Warning:  Undefined array key "customer" in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 74
+[25-Oct-2022 23:09:04 America/Los_Angeles] PHP Warning:  Trying to access array offset on value of type null in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 74
+[25-Oct-2022 23:09:04 America/Los_Angeles] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'customer_id' cannot be null in /home/thekymobile/public_html/payment/paypal/payment_process.php:86
+Stack trace:
+#0 /home/thekymobile/public_html/payment/paypal/payment_process.php(86): PDOStatement->execute()
+#1 {main}
+  thrown in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 86
+[04-Nov-2022 09:49:17 America/Los_Angeles] PHP Warning:  Undefined array key "cart_p_id" in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 90
+[04-Nov-2022 09:49:17 America/Los_Angeles] PHP Warning:  foreach() argument must be of type array|object, null given in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 90
+[04-Nov-2022 09:49:17 America/Los_Angeles] PHP Warning:  Undefined array key "cart_p_name" in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 97
+[04-Nov-2022 09:49:17 America/Los_Angeles] PHP Warning:  foreach() argument must be of type array|object, null given in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 97
+[04-Nov-2022 09:49:17 America/Los_Angeles] PHP Warning:  Undefined array key "cart_size_name" in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 104
+[04-Nov-2022 09:49:17 America/Los_Angeles] PHP Warning:  foreach() argument must be of type array|object, null given in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 104
+[04-Nov-2022 09:49:17 America/Los_Angeles] PHP Warning:  Undefined array key "cart_color_name" in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 111
+[04-Nov-2022 09:49:17 America/Los_Angeles] PHP Warning:  foreach() argument must be of type array|object, null given in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 111
+[04-Nov-2022 09:49:17 America/Los_Angeles] PHP Warning:  Undefined array key "cart_p_qty" in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 118
+[04-Nov-2022 09:49:17 America/Los_Angeles] PHP Warning:  foreach() argument must be of type array|object, null given in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 118
+[04-Nov-2022 09:49:17 America/Los_Angeles] PHP Warning:  Undefined array key "cart_p_current_price" in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 125
+[04-Nov-2022 09:49:17 America/Los_Angeles] PHP Warning:  foreach() argument must be of type array|object, null given in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 125
+[04-Nov-2022 09:49:17 America/Los_Angeles] PHP Warning:  Undefined variable $arr_cart_p_name in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 143
+[04-Nov-2022 09:49:17 America/Los_Angeles] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/thekymobile/public_html/payment/paypal/payment_process.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/thekymobile/public_html/payment/paypal/payment_process.php on line 143
