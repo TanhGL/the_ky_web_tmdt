@@ -8,5 +8,6 @@ PHAN NGỌC TÁNH - TEST
   + .nav
 - database -> tbl language -> show full table -> index [60]
 ![image](https://github.com/TanhGL/the_ky_web_tmdt/assets/86475978/17c178a8-b174-4831-bb45-41dfbb7aa651)
+![image](https://github.com/TanhGL/the_ky_web_tmdt/assets/86475978/97ac285e-f01c-462f-9940-d930799e0903)
 
 
