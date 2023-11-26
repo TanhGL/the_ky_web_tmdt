@@ -1,0 +1,28 @@
+RewriteEngine On
+
+
+RewriteRule "index.html" "index.php"
+RewriteRule "faq.html" "faq.php"
+RewriteRule "contact.html" "contact.php"
+RewriteRule "live.html" "live.php"
+RewriteRule "cart.html" "cart.php"
+RewriteRule "registration.html" "registration.php"
+RewriteRule "login.html" "login.php"
+RewriteRule "search-result.html" "search-result.php"
+RewriteRule "dashboard.html" "dashboard.php"
+RewriteRule "customer-profile-update.html" "customer-profile-update.php"
+RewriteRule "customer-password-update.html" "customer-password-update.php"
+RewriteRule "customer-order.html" "customer-order.php"
+RewriteRule "customer-billing-shipping-update.html" "customer-billing-shipping-update.php"
+
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE] 
+
+
+RewriteRule "^san-pham-([0-9]+).html$" "product.php?id=$1"
+
+
+RewriteRule ^([0-9]+)-([a-zA-Z0-9_-]+).html$ product-category.php?id=$1&type=$2
+
+

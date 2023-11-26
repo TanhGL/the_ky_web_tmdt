@@ -1,0 +1,17 @@
+[29-Oct-2022 03:27:49 America/Los_Angeles] PHP Warning:  Undefined array key "cart_p_id" in /home/thekymobile/public_html/payment/bank/init.php on line 60
+[29-Oct-2022 03:27:49 America/Los_Angeles] PHP Warning:  foreach() argument must be of type array|object, null given in /home/thekymobile/public_html/payment/bank/init.php on line 60
+[29-Oct-2022 03:27:49 America/Los_Angeles] PHP Warning:  Undefined array key "cart_p_name" in /home/thekymobile/public_html/payment/bank/init.php on line 67
+[29-Oct-2022 03:27:49 America/Los_Angeles] PHP Warning:  foreach() argument must be of type array|object, null given in /home/thekymobile/public_html/payment/bank/init.php on line 67
+[29-Oct-2022 03:27:49 America/Los_Angeles] PHP Warning:  Undefined array key "cart_size_name" in /home/thekymobile/public_html/payment/bank/init.php on line 74
+[29-Oct-2022 03:27:49 America/Los_Angeles] PHP Warning:  foreach() argument must be of type array|object, null given in /home/thekymobile/public_html/payment/bank/init.php on line 74
+[29-Oct-2022 03:27:49 America/Los_Angeles] PHP Warning:  Undefined array key "cart_color_name" in /home/thekymobile/public_html/payment/bank/init.php on line 81
+[29-Oct-2022 03:27:49 America/Los_Angeles] PHP Warning:  foreach() argument must be of type array|object, null given in /home/thekymobile/public_html/payment/bank/init.php on line 81
+[29-Oct-2022 03:27:49 America/Los_Angeles] PHP Warning:  Undefined array key "cart_p_qty" in /home/thekymobile/public_html/payment/bank/init.php on line 88
+[29-Oct-2022 03:27:49 America/Los_Angeles] PHP Warning:  foreach() argument must be of type array|object, null given in /home/thekymobile/public_html/payment/bank/init.php on line 88
+[29-Oct-2022 03:27:49 America/Los_Angeles] PHP Warning:  Undefined array key "cart_p_current_price" in /home/thekymobile/public_html/payment/bank/init.php on line 95
+[29-Oct-2022 03:27:49 America/Los_Angeles] PHP Warning:  foreach() argument must be of type array|object, null given in /home/thekymobile/public_html/payment/bank/init.php on line 95
+[29-Oct-2022 03:27:49 America/Los_Angeles] PHP Warning:  Undefined variable $arr_cart_p_name in /home/thekymobile/public_html/payment/bank/init.php on line 111
+[29-Oct-2022 03:27:49 America/Los_Angeles] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/thekymobile/public_html/payment/bank/init.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/thekymobile/public_html/payment/bank/init.php on line 111
